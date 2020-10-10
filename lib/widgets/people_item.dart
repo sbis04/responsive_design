@@ -3,7 +3,7 @@ import 'package:random_color/random_color.dart';
 import 'package:responsive_design/widgets/text_view.dart';
 
 /// The content to the displayed in each ChatList item
-class ChatContent extends StatelessWidget {
+class PeopleItem extends StatelessWidget {
   final RandomColor _randomColor = RandomColor();
 
   @override

@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-      body: ChatView(),
+      body: PeopleView(),
     );
   }
 }
