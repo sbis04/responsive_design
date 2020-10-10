@@ -14,6 +14,7 @@ class Flow extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
