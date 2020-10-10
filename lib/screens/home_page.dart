@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/screens/chat_view.dart';
+import 'package:responsive_design/screens/people_view.dart';
 
 class HomePage extends StatelessWidget {
   @override
