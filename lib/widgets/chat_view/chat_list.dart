@@ -8,6 +8,7 @@ class ChatList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      shrinkWrap: true,
       reverse: true,
       physics: BouncingScrollPhysics(),
       itemCount: 30,
