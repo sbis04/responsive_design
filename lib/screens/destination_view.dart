@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_design/model/destination.dart';
+import 'package:responsive_design/screens/contact_view.dart';
 import 'package:responsive_design/screens/people_view.dart';
 
 class DestinationView extends StatelessWidget {
@@ -17,7 +18,7 @@ class DestinationView extends StatelessWidget {
             ? Container()
             : destination.id == 1
                 ? PeopleView()
-                : Container(),
+                : ContactView(),
       ),
     );
   }

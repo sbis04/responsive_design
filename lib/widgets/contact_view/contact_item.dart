@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
+import 'package:responsive_design/res/custom_colors.dart';
 import 'package:responsive_design/screens/chat_view.dart';
 import 'package:responsive_design/widgets/text_view.dart';
 
-/// The content to the displayed in each PeopleList item
-class PeopleItem extends StatelessWidget {
+/// The content to the displayed in each ChatList item
+class ContactItem extends StatelessWidget {
   final RandomColor _randomColor = RandomColor();
 
   @override
@@ -14,7 +15,7 @@ class PeopleItem extends StatelessWidget {
     return Container(
       color: Colors.white,
       child: Padding(
-        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 40.0),
+        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 16.0),
         child: InkWell(
           onTap: () {
             Navigator.of(context).push(MaterialPageRoute(
@@ -30,13 +31,15 @@ class PeopleItem extends StatelessWidget {
                 backgroundColor: profileColor,
               ),
               SizedBox(width: 16.0),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextViewSmall(),
-                  SizedBox(height: 8.0),
-                  TextViewMedium(),
-                ],
+              TextViewSmall(),
+              Expanded(child: SizedBox()),
+              RaisedButton(
+                color: CustomColors.neon_green,
+                onPressed: () {},
+                child: Text(
+                  'invite',
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
               )
             ],
           ),
