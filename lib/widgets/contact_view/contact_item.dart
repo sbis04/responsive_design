@@ -16,33 +16,26 @@ class ContactItem extends StatelessWidget {
       color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 16.0),
-        child: InkWell(
-          onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => ChatView(profileColor),
-            ));
-          },
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              CircleAvatar(
-                radius: 30,
-                backgroundColor: profileColor,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            CircleAvatar(
+              radius: 30,
+              backgroundColor: profileColor,
+            ),
+            SizedBox(width: 16.0),
+            TextViewSmall(),
+            Expanded(child: SizedBox()),
+            RaisedButton(
+              color: CustomColors.neon_green,
+              onPressed: () {},
+              child: Text(
+                'invite',
+                style: TextStyle(color: Colors.white, fontSize: 18),
               ),
-              SizedBox(width: 16.0),
-              TextViewSmall(),
-              Expanded(child: SizedBox()),
-              RaisedButton(
-                color: CustomColors.neon_green,
-                onPressed: () {},
-                child: Text(
-                  'invite',
-                  style: TextStyle(color: Colors.white, fontSize: 18),
-                ),
-              )
-            ],
-          ),
+            )
+          ],
         ),
       ),
     );
