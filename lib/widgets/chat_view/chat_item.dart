@@ -57,7 +57,7 @@ class ChatItem extends StatelessWidget {
                         return Container(
                           height: getBubbleHeight().toDouble(),
                           decoration: BoxDecoration(
-                            color: profileIconColor.withOpacity(0.3),
+                            color: CustomColors.blue_gray.withOpacity(0.3),
                             borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(bubbleRoundedRadius),
                               bottomRight: Radius.circular(bubbleRoundedRadius),
