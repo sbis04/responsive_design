@@ -27,6 +27,68 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
+      drawer: Drawer(
+        child: Container(
+          color: CustomColors.blue_gray,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Container(
+                width: double.maxFinite,
+                height: 150,
+                color: CustomColors.blue_gray_dark,
+                child: Center(
+                  child: Text(
+                    'Flow',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'SansitaSwashed',
+                      fontSize: 32,
+                      letterSpacing: 1,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                height: 5,
+                width: double.maxFinite,
+                color: Colors.white60,
+              ),
+              InkWell(
+                onTap: () {},
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Text(
+                    'About',
+                    style: TextStyle(color: Colors.white, fontSize: 22),
+                  ),
+                ),
+              ),
+              Container(
+                height: 2,
+                width: double.maxFinite,
+                color: Colors.white24,
+              ),
+              Expanded(
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Copyright © 2020 | Flow',
+                      style: TextStyle(
+                        color: Colors.white60,
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
+                ),
+              )
+            ],
+          ),
+        ),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: CustomColors.blue_gray,
         selectedIconTheme: IconThemeData(size: 30),
