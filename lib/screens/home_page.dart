@@ -26,6 +26,22 @@ class _HomePageState extends State<HomePage> {
             letterSpacing: 1,
           ),
         ),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: () {},
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 8.0),
+            child: IconButton(
+              icon: CircleAvatar(
+                radius: 16,
+                backgroundColor: CustomColors.neon_green,
+              ),
+              onPressed: () {},
+            ),
+          )
+        ],
       ),
       drawer: Drawer(
         child: Container(
