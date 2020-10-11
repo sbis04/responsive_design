@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class TextViewSmall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return TextView(sizeFactor: 0.4);
+    return TextView(sizeFactor: 0.3);
   }
 }
 
