@@ -30,13 +30,15 @@ class PeopleItem extends StatelessWidget {
                 backgroundColor: profileColor,
               ),
               SizedBox(width: 16.0),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextViewSmall(),
-                  SizedBox(height: 8.0),
-                  TextViewMedium(),
-                ],
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextViewSmall(),
+                    SizedBox(height: 8.0),
+                    TextViewMedium(),
+                  ],
+                ),
               )
             ],
           ),

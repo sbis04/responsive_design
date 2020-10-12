@@ -25,8 +25,11 @@ class ContactItem extends StatelessWidget {
               backgroundColor: profileColor,
             ),
             SizedBox(width: 16.0),
-            TextViewSmall(),
-            Expanded(child: SizedBox()),
+            Expanded(
+                child: Padding(
+              padding: const EdgeInsets.only(right: 24.0),
+              child: TextViewSmall(),
+            )),
             RaisedButton(
               color: CustomColors.neon_green,
               onPressed: () {},
