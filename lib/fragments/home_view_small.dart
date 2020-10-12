@@ -87,7 +87,12 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                   children: [
                     Icon(Icons.notifications, size: 24, color: CustomColors.neon_green),
                     SizedBox(width: 16.0),
-                    TextViewSmall(),
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 16.0),
+                        child: TextViewSmall(),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -102,7 +107,12 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                   children: [
                     Icon(Icons.settings, size: 24, color: CustomColors.neon_green),
                     SizedBox(width: 16.0),
-                    TextViewSmall(),
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 16.0),
+                        child: TextViewSmall(),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -117,7 +127,12 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                   children: [
                     Icon(Icons.info, size: 24, color: CustomColors.neon_green),
                     SizedBox(width: 16.0),
-                    TextViewSmall(),
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(right: 16.0),
+                        child: TextViewSmall(),
+                      ),
+                    ),
                   ],
                 ),
               ),

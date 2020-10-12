@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_design/fragments/destination_view.dart';
 import 'package:responsive_design/model/destination.dart';
-import 'package:responsive_design/screens/destination_view.dart';
 import 'package:responsive_design/widgets/menu_widget.dart';
 
 class HomeViewLarge extends StatefulWidget {

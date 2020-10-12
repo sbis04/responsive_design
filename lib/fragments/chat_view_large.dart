@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_design/fragments/people_view.dart';
 import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/screens/people_view.dart';
 import 'package:responsive_design/widgets/chat_view/chat_list.dart';
 import 'package:responsive_design/widgets/send_widget.dart';
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/screens/chat_view_large.dart';
-import 'package:responsive_design/screens/chat_view_small.dart';
+import 'package:responsive_design/fragments/chat_view_large.dart';
+import 'package:responsive_design/fragments/chat_view_small.dart';
 
-class ChatView extends StatelessWidget {
+class ChatPage extends StatelessWidget {
   final Color profileIconColor;
-  ChatView(this.profileIconColor);
+  ChatPage(this.profileIconColor);
 
   @override
   Widget build(BuildContext context) {

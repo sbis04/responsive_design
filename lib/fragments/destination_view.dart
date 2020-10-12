@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_design/model/destination.dart';
-import 'package:responsive_design/screens/bookmark_view.dart';
-import 'package:responsive_design/screens/contact_view.dart';
-import 'package:responsive_design/screens/people_view.dart';
+import 'package:responsive_design/fragments/bookmark_view.dart';
+import 'package:responsive_design/fragments/contact_view.dart';
+import 'package:responsive_design/fragments/people_view.dart';
 
 class DestinationView extends StatelessWidget {
   final Destination destination;

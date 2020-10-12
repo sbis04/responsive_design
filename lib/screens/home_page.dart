@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/screens/home_view_large.dart';
-import 'package:responsive_design/screens/home_view_small.dart';
+import 'package:responsive_design/fragments/home_view_large.dart';
+import 'package:responsive_design/fragments/home_view_small.dart';
 
 class HomePage extends StatefulWidget {
   @override
