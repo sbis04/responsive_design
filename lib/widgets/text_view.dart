@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 class TextViewSmall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return TextView(sizeFactor: 0.3);
+    return FractionallySizedBox(
+      widthFactor: 0.4,
+      child: TextView(),
+    );
   }
 }
 
@@ -12,7 +15,10 @@ class TextViewSmall extends StatelessWidget {
 class TextViewMedium extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return TextView(sizeFactor: 0.6);
+    return FractionallySizedBox(
+      widthFactor: 0.8,
+      child: TextView(),
+    );
   }
 }
 
@@ -20,21 +26,18 @@ class TextViewMedium extends StatelessWidget {
 class TextViewLarge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return TextView(sizeFactor: 0.8);
+    return FractionallySizedBox(
+      widthFactor: 1.0,
+      child: TextView(),
+    );
   }
 }
 
 /// Generates a placeholder for a Text
 class TextView extends StatelessWidget {
-  final double sizeFactor;
-
-  TextView({@required this.sizeFactor});
-
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
     return Container(
-      // width: width * sizeFactor,
       height: 16,
       decoration: BoxDecoration(
         color: Colors.grey[300],

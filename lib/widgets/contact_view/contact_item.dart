@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
 import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/fragments/chat_view_small.dart';
 import 'package:responsive_design/widgets/text_view.dart';
 
 /// The content to the displayed in each ChatList item
@@ -24,12 +23,7 @@ class ContactItem extends StatelessWidget {
               radius: 30,
               backgroundColor: profileColor,
             ),
-            SizedBox(width: 16.0),
-            Expanded(
-                child: Padding(
-              padding: const EdgeInsets.only(right: 24.0),
-              child: TextViewSmall(),
-            )),
+            Expanded(child: TextViewSmall()),
             RaisedButton(
               color: CustomColors.neon_green,
               onPressed: () {},

@@ -27,6 +27,7 @@ class _HomeViewLargeState extends State<HomeViewLarge> {
     return Container(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Flexible(
             flex: 2,
