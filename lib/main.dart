@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_design/screens/home_page.dart';
 
-import 'screens/home_page.dart';
+import 'screens/home_view_small.dart';
 
 void main() {
   runApp(Flow());
