@@ -26,6 +26,7 @@ class _HomeViewLargeState extends State<HomeViewLarge> {
   Widget build(BuildContext context) {
     return Container(
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Flexible(
             flex: 2,
