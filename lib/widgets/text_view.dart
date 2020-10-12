@@ -34,7 +34,7 @@ class TextView extends StatelessWidget {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     return Container(
-      width: width * sizeFactor,
+      // width: width * sizeFactor,
       height: 16,
       decoration: BoxDecoration(
         color: Colors.grey[300],
