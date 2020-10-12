@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
 import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/screens/chat_view.dart';
+import 'package:responsive_design/screens/chat_view_small.dart';
 import 'package:responsive_design/widgets/text_view.dart';
 
 /// The content to the displayed in each ChatList item

@@ -6,6 +6,9 @@ import 'package:responsive_design/widgets/text_view.dart';
 /// The content to the displayed in each PeopleList item
 class PeopleItem extends StatelessWidget {
   final RandomColor _randomColor = RandomColor();
+  final bool isNotInChatMode;
+
+  PeopleItem({this.isNotInChatMode = true});
 
   @override
   Widget build(BuildContext context) {
@@ -17,9 +20,10 @@ class PeopleItem extends StatelessWidget {
         padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 40.0),
         child: InkWell(
           onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => ChatView(profileColor),
-            ));
+            isNotInChatMode ??
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => ChatView(profileColor),
+                ));
           },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
