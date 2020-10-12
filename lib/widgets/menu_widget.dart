@@ -27,6 +27,7 @@ class _MenuWidgetState extends State<MenuWidget> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisSize: MainAxisSize.max,
         children: [
           Container(
             width: double.maxFinite,
