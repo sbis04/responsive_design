@@ -16,9 +16,9 @@ class DestinationView extends StatelessWidget {
       body: Container(
         alignment: Alignment.center,
         child: destination.id == 0
-            ? BookmarkView()
+            ? PeopleView()
             : destination.id == 1
-                ? PeopleView()
+                ? BookmarkView()
                 : ContactView(),
       ),
     );

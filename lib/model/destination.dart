@@ -8,7 +8,7 @@ class Destination {
 }
 
 const List<Destination> allDestinations = <Destination>[
-  Destination(0, 'Bookmark', Icons.bookmark),
-  Destination(1, 'Chats', Icons.chat),
+  Destination(0, 'Chats', Icons.chat),
+  Destination(1, 'Bookmark', Icons.bookmark),
   Destination(2, 'Contacts', Icons.people)
 ];
