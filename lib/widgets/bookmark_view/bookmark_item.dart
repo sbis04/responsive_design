@@ -18,7 +18,6 @@ class BookmarkItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color profileColor = _randomColor.randomColor();
-    double width = MediaQuery.of(context).size.width;
 
     return Container(
       color: Colors.white,
@@ -34,29 +33,32 @@ class BookmarkItem extends StatelessWidget {
               backgroundColor: profileColor,
             ),
             SizedBox(width: 16.0),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                TextViewSmall(),
-                SizedBox(height: 16.0),
-                Container(
-                  width: width * 0.6,
-                  height: getBubbleHeight().toDouble(),
-                  decoration: BoxDecoration(
-                    color: profileColor.withOpacity(0.3),
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(bubbleRoundedRadius),
-                      bottomRight: Radius.circular(bubbleRoundedRadius),
-                      topRight: Radius.circular(bubbleRoundedRadius),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  TextViewSmall(),
+                  SizedBox(height: 16.0),
+                  Container(
+                    height: getBubbleHeight().toDouble(),
+                    decoration: BoxDecoration(
+                      color: profileColor.withOpacity(0.3),
+                      borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(bubbleRoundedRadius),
+                        bottomRight: Radius.circular(bubbleRoundedRadius),
+                        topRight: Radius.circular(bubbleRoundedRadius),
+                      ),
                     ),
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
-            Expanded(child: SizedBox()),
-            Icon(Icons.bookmark),
+            Padding(
+              padding: const EdgeInsets.only(left: 24.0, right: 8.0),
+              child: Icon(Icons.bookmark),
+            ),
           ],
         ),
       ),
