@@ -6,6 +6,8 @@ This repository contains demonstration of some important concepts that you can u
 
 Also, a fully responsive Flutter app called **Flow**, having split view is included in this repository.
 
+![](https://github.com/sbis04/responsive_design/raw/master/screenshots/flow_cover.png)
+
 ## Widgets
 
 Some important widgets you should know about while building a responsive layout in Flutter are as follows:
