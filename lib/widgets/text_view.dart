@@ -5,6 +5,7 @@ class TextViewSmall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FractionallySizedBox(
+      alignment: Alignment.centerLeft,
       widthFactor: 0.4,
       child: TextView(),
     );
@@ -16,6 +17,7 @@ class TextViewMedium extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FractionallySizedBox(
+      alignment: Alignment.centerLeft,
       widthFactor: 0.8,
       child: TextView(),
     );
@@ -27,6 +29,7 @@ class TextViewLarge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FractionallySizedBox(
+      alignment: Alignment.centerLeft,
       widthFactor: 1.0,
       child: TextView(),
     );

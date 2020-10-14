@@ -90,7 +90,7 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                     Expanded(
                       child: Padding(
                         padding: EdgeInsets.only(right: 16.0),
-                        child: TextViewSmall(),
+                        child: TextViewMedium(),
                       ),
                     ),
                   ],
@@ -110,7 +110,7 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                     Expanded(
                       child: Padding(
                         padding: EdgeInsets.only(right: 16.0),
-                        child: TextViewSmall(),
+                        child: TextViewMedium(),
                       ),
                     ),
                   ],
@@ -130,7 +130,7 @@ class _HomeViewSmallState extends State<HomeViewSmall> {
                     Expanded(
                       child: Padding(
                         padding: EdgeInsets.only(right: 16.0),
-                        child: TextViewSmall(),
+                        child: TextViewMedium(),
                       ),
                     ),
                   ],

@@ -23,7 +23,11 @@ class ContactItem extends StatelessWidget {
               radius: 30,
               backgroundColor: profileColor,
             ),
-            Expanded(child: TextViewSmall()),
+            Expanded(
+                child: Padding(
+              padding: const EdgeInsets.only(left: 16.0),
+              child: TextViewMedium(),
+            )),
             RaisedButton(
               color: CustomColors.neon_green,
               onPressed: () {},

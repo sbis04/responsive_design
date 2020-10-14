@@ -95,7 +95,7 @@ class _MenuWidgetState extends State<MenuWidget> {
               children: [
                 Icon(Icons.notifications, size: 24, color: CustomColors.neon_green),
                 SizedBox(width: 16.0),
-                Expanded(child: TextViewSmall()),
+                Expanded(child: TextViewMedium()),
               ],
             ),
           ),
@@ -110,7 +110,7 @@ class _MenuWidgetState extends State<MenuWidget> {
               children: [
                 Icon(Icons.settings, size: 24, color: CustomColors.neon_green),
                 SizedBox(width: 16.0),
-                Expanded(child: TextViewSmall()),
+                Expanded(child: TextViewMedium()),
               ],
             ),
           ),
@@ -125,7 +125,7 @@ class _MenuWidgetState extends State<MenuWidget> {
               children: [
                 Icon(Icons.info, size: 24, color: CustomColors.neon_green),
                 SizedBox(width: 16.0),
-                Expanded(child: TextViewSmall()),
+                Expanded(child: TextViewMedium()),
               ],
             ),
           ),

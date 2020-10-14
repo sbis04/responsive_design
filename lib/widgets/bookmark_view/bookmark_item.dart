@@ -39,7 +39,7 @@ class BookmarkItem extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  TextViewSmall(),
+                  TextViewMedium(),
                   SizedBox(height: 16.0),
                   Container(
                     height: getBubbleHeight().toDouble(),
