@@ -13,7 +13,7 @@ class ChatViewLarge extends StatelessWidget {
     return Container(
       child: Row(
         children: [
-          Flexible(
+          Expanded(
             flex: 2,
             child: SingleChildScrollView(
               child: Column(
