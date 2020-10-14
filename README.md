@@ -381,3 +381,12 @@ class AspectRatioWidget extends StatelessWidget {
 ```
 
 ![](https://github.com/sbis04/responsive_design/raw/master/screenshots/flutter_layout_6.png)
+
+## Plugins
+
+Some of the amazing Flutter plugins that you can use while building a responsive layout are as follows:
+
+* [device_preview](https://pub.dev/packages/device_preview)
+* [breakpoint](https://pub.dev/packages/breakpoint)
+* [responsive_builder](https://pub.dev/packages/responsive_builder)
+* [responsive_framework](https://pub.dev/packages/responsive_framework)
