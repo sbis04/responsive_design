@@ -4,7 +4,11 @@
 
 This repository contains demonstration of some important concepts that you can use while building a **responsive layout** in Flutter.
 
-Also, a fully responsive Flutter app having split view is included in this repository.
+Also, a fully responsive Flutter app called **Flow**, having split view is included in this repository.
+
+## Widgets
+
+Some important widgets you should know about while building a responsive layout in Flutter are as follows:
 
 ### 1. MediaQuery
 
