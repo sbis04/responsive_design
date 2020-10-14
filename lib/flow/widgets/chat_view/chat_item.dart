@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:responsive_design/res/custom_colors.dart';
+import 'package:responsive_design/flow/res/custom_colors.dart';
 
 /// The content to the displayed in each ChatList item
 class ChatItem extends StatelessWidget {

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/model/destination.dart';
-import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/widgets/text_view.dart';
-
-import 'destination_view.dart';
+import 'package:responsive_design/flow/fragments/destination_view.dart';
+import 'package:responsive_design/flow/model/destination.dart';
+import 'package:responsive_design/flow/res/custom_colors.dart';
+import 'package:responsive_design/flow/widgets/text_view.dart';
 
 class HomeViewSmall extends StatefulWidget {
   final int currentIndex;

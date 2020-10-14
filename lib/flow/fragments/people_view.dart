@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/widgets/people_view/people_list.dart';
+import 'package:responsive_design/flow/widgets/people_view/people_list.dart';
 
 class PeopleView extends StatelessWidget {
   final bool isNotInChatMode;

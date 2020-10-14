@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/widgets/bookmark_view/bookmark_item.dart';
+import 'package:responsive_design/flow/widgets/contact_view/contact_item.dart';
 
-class BookmarkList extends StatelessWidget {
+class ContactList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      shrinkWrap: true,
       physics: BouncingScrollPhysics(),
-      itemCount: 10,
+      itemCount: 20,
       itemBuilder: (context, index) {
-        return BookmarkItem();
+        return ContactItem();
       },
     );
   }

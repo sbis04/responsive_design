@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/widgets/bookmark_view/bookmark_list.dart';
+import 'package:responsive_design/flow/widgets/bookmark_view/bookmark_list.dart';
 
 class BookmarkView extends StatelessWidget {
   @override

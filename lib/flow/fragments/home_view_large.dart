@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/fragments/destination_view.dart';
-import 'package:responsive_design/model/destination.dart';
-import 'package:responsive_design/widgets/menu_widget.dart';
+import 'package:responsive_design/flow/fragments/destination_view.dart';
+import 'package:responsive_design/flow/model/destination.dart';
+import 'package:responsive_design/flow/widgets/menu_widget.dart';
 
 class HomeViewLarge extends StatefulWidget {
   final int currentIndex;

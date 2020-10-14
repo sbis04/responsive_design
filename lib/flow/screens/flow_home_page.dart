@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/fragments/home_view_large.dart';
-import 'package:responsive_design/fragments/home_view_small.dart';
+import 'package:responsive_design/flow/fragments/home_view_large.dart';
+import 'package:responsive_design/flow/fragments/home_view_small.dart';
 
-class HomePage extends StatefulWidget {
+class FlowHomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _FlowHomePageState createState() => _FlowHomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _FlowHomePageState extends State<FlowHomePage> {
   int _currentIndex = 0;
 
   @override

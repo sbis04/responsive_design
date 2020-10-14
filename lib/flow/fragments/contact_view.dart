@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/widgets/contact_view/contact_list.dart';
+import 'package:responsive_design/flow/widgets/contact_view/contact_list.dart';
 
 class ContactView extends StatelessWidget {
   @override

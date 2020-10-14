@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/fragments/chat_view_large.dart';
-import 'package:responsive_design/fragments/chat_view_small.dart';
+import 'package:responsive_design/flow/fragments/chat_view_large.dart';
+import 'package:responsive_design/flow/fragments/chat_view_small.dart';
 
 class ChatPage extends StatelessWidget {
   final Color profileIconColor;

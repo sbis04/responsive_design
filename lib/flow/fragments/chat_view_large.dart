@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/fragments/people_view.dart';
-import 'package:responsive_design/res/custom_colors.dart';
-import 'package:responsive_design/widgets/chat_view/chat_list.dart';
-import 'package:responsive_design/widgets/send_widget.dart';
+import 'package:responsive_design/flow/fragments/people_view.dart';
+import 'package:responsive_design/flow/res/custom_colors.dart';
+import 'package:responsive_design/flow/widgets/chat_view/chat_list.dart';
+import 'package:responsive_design/flow/widgets/send_widget.dart';
 
 class ChatViewLarge extends StatelessWidget {
   final Color profileIconColor;

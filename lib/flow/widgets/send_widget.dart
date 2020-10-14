@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/res/custom_colors.dart';
+import 'package:responsive_design/flow/res/custom_colors.dart';
 
 class SendWidget extends StatelessWidget {
   @override

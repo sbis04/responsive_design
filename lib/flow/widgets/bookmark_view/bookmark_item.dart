@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
-import 'package:responsive_design/widgets/text_view.dart';
+import 'package:responsive_design/flow/widgets/text_view.dart';
 
 /// The content to the displayed in each PeopleList item
 class BookmarkItem extends StatelessWidget {

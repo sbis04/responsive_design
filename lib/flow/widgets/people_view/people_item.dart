@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
-import 'package:responsive_design/screens/chat_page.dart';
-import 'package:responsive_design/widgets/text_view.dart';
+import 'package:responsive_design/flow/screens/chat_page.dart';
+import 'package:responsive_design/flow/widgets/text_view.dart';
 
 /// The content to the displayed in each PeopleList item
 class PeopleItem extends StatelessWidget {
