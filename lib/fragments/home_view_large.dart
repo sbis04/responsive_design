@@ -29,7 +29,7 @@ class _HomeViewLargeState extends State<HomeViewLarge> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Flexible(
+          Expanded(
             flex: 2,
             child: MenuWidget(
               selectedIndex: _index,
