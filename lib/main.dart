@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_design/screens/home_page.dart';
+import 'package:responsive_design/home_page.dart';
 
 void main() {
-  runApp(Flow());
+  runApp(MyResponsiveApp());
 }
 
-class Flow extends StatelessWidget {
+class MyResponsiveApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flow: Responsive Design',
+      title: 'Responsive Design',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
